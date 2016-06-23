@@ -41,6 +41,11 @@ import com.android.internal.util.custom.FodUtils;
  */
 public class FingerprintEnrollFindSensor extends BiometricEnrollBase {
 
+    private static final int SENSOR_LOCATION_BACK = 0;
+    private static final int SENSOR_LOCATION_FRONT = 1;
+    private static final int SENSOR_LOCATION_LEFT = 2;
+    private static final int SENSOR_LOCATION_RIGHT = 3;
+
     @Nullable
     private FingerprintFindSensorAnimation mAnimation;
 
@@ -82,14 +87,11 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase {
         if (sensorLocation < SENSOR_LOCATION_BACK || sensorLocation > SENSOR_LOCATION_RIGHT) {
             sensorLocation = SENSOR_LOCATION_BACK;
         }
-        if (FodUtils.hasFodSupport(this)){
-            sensorLocation = SENSOR_LOCATION_FRONT;
-            animationView.setVisibility(View.GONE);
-        }
-        final String customLocation = getResources().getStringArray(
+        final String location = getResources().getStringArray(
                 R.array.security_settings_fingerprint_sensor_locations)[sensorLocation];
         TextView message = (TextView) findViewById(R.id.sud_layout_description);
-        message.setText(customLocation);
+        message.setText(getString(
+                R.string.security_settings_fingerprint_enroll_find_sensor_message_cm, location));
         if (sensorLocation == SENSOR_LOCATION_FRONT) {
             findViewById(R.id.fingerprint_sensor_location_front_overlay)
                     .setVisibility(View.VISIBLE);
