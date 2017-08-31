@@ -28,5 +28,8 @@
 
       <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
-
+  
+    <!-- Ctosp Settings -->
+    <string name="ctosp_settings_title">Ctosp settings</string>
+    <string name="ctosp_settings_summary">This way for customization</string>
 </resources>
