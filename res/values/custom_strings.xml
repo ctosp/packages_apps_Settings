@@ -17,7 +17,7 @@
      
      <!-- CTextras settings -->
     <string name="CTextras_settings_title">Canonicalize</string>
-    <string name="CTextras_settings_summary">Blumes Concept</string>
+    <string name="CTextras_settings_summary">Blume\'s Concept</string>
 
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
@@ -316,11 +316,57 @@
     <string name="ctosp_updater_title">System Updater</string>
     <string name="ctosp_updater_summary">Ctosp Edition Updater</string>
 
-    <!-- Cerberus OS dialog -->
+    <!-- ctosp OS dialog -->
     <string name="ctosp_title">Ctosp</string>
     <string name="ctosp_version">Ctosp Edition</string>
     <string name="ctosp_build_date">Build Date</string>
     <string name="ctosp_build_type">Build Type</string>
     <string name="ctosp_device">Device</string>
     <string name="ctosp_maintainer">Maintainer</string> 
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text" translatable="false"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
+    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
+    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
+    <string name="value_equals_default">def</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+
 </resources>
