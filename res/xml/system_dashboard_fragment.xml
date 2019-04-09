@@ -65,7 +65,7 @@
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
 
-    <!-- System updates -->
+    <!-- System updates 
     <Preference
         android:key="system_update_settings"
         android:title="@string/system_update_settings_list_item_title"
@@ -85,6 +85,19 @@
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="@string/additional_system_update"
                 android:targetClass="@string/additional_system_update_menu" />
-    </Preference>
+    </Preference> -->
 
+	<!-- System Updater -->
+    <PreferenceScreen 
+	android:key="ctosp_updater"
+	android:title="@string/ctosp_updater_title"
+	android:icon="@drawable/ic_system_update"
+	android:order="-230"
+	android:summary="@string/ctosp_updater_summary">       
+	
+	<intent
+        android:action="android.intent.action.MAIN"
+        android:targetPackage="com.ctosp.ota"
+        android:targetClass="com.ctosp.ota.UpdatesActivity" />     
+    </PreferenceScreen>
 </PreferenceScreen>

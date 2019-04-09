@@ -311,5 +311,16 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+	
+    <!-- Updater -->
+    <string name="ctosp_updater_title">System Updater</string>
+    <string name="ctosp_updater_summary">Ctosp Edition Updater</string>
 
+    <!-- Cerberus OS dialog -->
+    <string name="ctosp_title">Ctosp</string>
+    <string name="ctosp_version">Ctosp Edition</string>
+    <string name="ctosp_build_date">Build Date</string>
+    <string name="ctosp_build_type">Build Type</string>
+    <string name="ctosp_device">Device</string>
+    <string name="ctosp_maintainer">Maintainer</string> 
 </resources>
