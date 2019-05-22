@@ -308,4 +308,7 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+
 </resources>
