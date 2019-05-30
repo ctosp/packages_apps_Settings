@@ -112,7 +112,7 @@
     <color name="condition_card_background">#f8f8f8</color>
 
     <!-- Dashboard/homepage icon background colors -->
-    <color name="homepage_ctosp_background">#7f00ff</color>
+    <color name="homepage_CTextras_background">#7f00ff</color>
     <color name="homepage_network_background">#2196F3</color>
     <color name="homepage_connected_device_background">#72B70F</color>
     <color name="homepage_app_and_notification_background">#FF7E0F</color>
