@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+     <!-- ctosp logo -->
+    <PreferenceScreen
+        android:key="ctosp_logo"
+        android:enabled="false"
+        android:layout="@layout/ctosp_logo" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
